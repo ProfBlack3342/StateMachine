@@ -9,6 +9,8 @@ public class StateMachine
     //Função chamada no Update() da classe Main
     public void ExecuteState()
     {
+        Debug.Log("ExecuteState");
+
         currentState.Execute();
     }
 
